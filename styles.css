@@ -581,7 +581,7 @@ footer {
     nav {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 440px;
         height: 250px;
 
     }
@@ -649,7 +649,7 @@ footer {
     .banner {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 440px;
     }
 
     .banner-left {
@@ -715,9 +715,10 @@ footer {
 
     .gammer {
         background-color: rgba(255, 66, 165, 0.03);
-        max-width: 1550px;
-        margin: 0 auto;
+        /* max-width: 1550px; */
+        /* margin: 0 ; */
         display: flex;
+        gap: 0px;
         flex-direction: column;
 
     }
@@ -725,7 +726,7 @@ footer {
     .gammer-left img {
         width: 368px;
         height: 289px;
-        flex-shrink: 0;
+        
         margin-left: 0px;
         margin-top: 50px;
     }
@@ -752,6 +753,26 @@ footer {
     .gammer-h {
         font-size: 15px;
 
+    }
+    .online{
+        width: 100%;
+        margin: auto;
+    
+    }
+    .online-heading-text,.online-heading {
+        
+        font-size: 28px;
+       
+    }
+    .online .online-heading-description{
+        font-size: 13px;
+    }
+    .online-games{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
     }
 }
 
