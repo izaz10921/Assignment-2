@@ -228,11 +228,14 @@ nav {
     .banner-btn-1 {
         
         font-size: 15px;
+        padding: 12px 30px;
+        margin-left: 30px;
        
     }
     .banner-btn-2 {
         
         font-size: 15px;
+        padding: 12px 30px;
         
     }
     .banner-icon-1,
@@ -258,9 +261,7 @@ nav {
         width: 900px;
     }
 
-    .nav-right{
-       
-    }
+
 
     .banner-right img {
         width: 450px;
@@ -271,6 +272,30 @@ nav {
     }
 
     .banner {
-        margin-top: 25px;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .banner-left h3 {
+        padding-top: 30px;
+        font-size: 28px;
+        text-align: center;
+       
+    }
+    .banner-left h1 {
+      
+        font-size: 75px;
+        text-align: center;
+        
+    }
+    .banner-btn-1 {
+        
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+    .banner-btn-2 {
+        
+        font-size: 15px;
+        padding: 12px 30px;
+        
     }
 }
