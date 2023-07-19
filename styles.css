@@ -99,9 +99,7 @@ nav {
 
 }
 
-.banner-icon-1,
-.banner-icon-2,
-.banner-icon-3 {
+.banner-icon-1,.banner-icon-2,.banner-icon-3 {
     display: flex;
     gap: 4px;
     align-items: center;
@@ -505,7 +503,7 @@ footer {
     padding-top: 120px;
 }
 
-,
+
 .footer-heading-img {
     width: 5px;
     height: 20px;
